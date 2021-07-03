@@ -7,7 +7,9 @@ size: 2
 itemCapacity: 12
 reloadTime: 30
 range: 330
-bullet: MassDriverBolt
+bullet: {
+  shootType: MassDriverBolt
+}
 consumes : {
 power: 1.25
 }
